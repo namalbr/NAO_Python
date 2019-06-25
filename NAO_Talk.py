@@ -13,7 +13,7 @@ class MyClass(GeneratedClass):
     def onInput_onStart(self):
         #self.onStopped() #activate the output of the box
         ttsProxy = ALProxy("ALTextToSpeech")        
-        ttsProxy.sat("Hello there")        
+        ttsProxy.say("Hello there, How are you?")        
         
 
     def onInput_onStop(self):
